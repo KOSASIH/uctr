@@ -8,3 +8,9 @@ sqlite3
 
 # Testing
 unittest
+
+# Security
+cryptography
+
+# Performance
+psutil
