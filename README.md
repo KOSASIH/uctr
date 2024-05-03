@@ -36,10 +36,6 @@ UCTR is open-source software licensed under the MIT License.
 
 # Contact
 
-UCTR is open-source software licensed under the MIT License.
-
-# Contact
-
 For any questions or concerns, please contact the UCTR team at uctr@universalcomputertech.com.
 
 Happy coding!
