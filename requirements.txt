@@ -1,0 +1,10 @@
+# Required packages for UCTR system
+
+# Logging
+logging
+
+# Database
+sqlite3
+
+# Testing
+unittest
