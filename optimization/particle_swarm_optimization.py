@@ -25,4 +25,23 @@ class ParticleSwarmOptimization:
 
     def update_particle(self, particle):
         r1, r2 = random.random(), random.random()
-        cognitive_component = self.cognitive_weight * r1 * (particle.personal_best
+        cognitive_component = self.cognitive_weight * r1 * (particle.personal_best$@$v=v1.16$@$- particle.position)
+        social_component = self.social_weight * r2 * (self.global_best.position - particle.position)
+        new_velocity = self.inertia_weight * particle.velocity + cognitive_component + social_component
+        new_position = particle.position + new_velocity
+        new_fitness = self.objective_function(new_position)
+        if new_fitness < particle.personal_best_fitness:
+            particle.personal_best = new_position
+            particle.personal_best_fitness = new_fitness
+        if new_fitness < self.global_best_fitness:
+            self.global_best = particle
+            self.global_best_fitness = new_fitness
+        particle.velocity = new_velocity
+        particle.position = new_position
+
+    def run(self):
+        self.initialize_population()
+        for _ in range(self.num_iterations):
+            for particle in self.population:
+                self.update_particle(particle)
+        return self.global_best.position
