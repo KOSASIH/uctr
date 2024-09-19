@@ -1,0 +1,22 @@
+{
+    "incident_data": [
+        {
+            "incident_type": "Malware Outbreak",
+            "incident_description": "Malware outbreak detected on multiple systems",
+            "incident_response_steps": [
+                "Isolate affected systems",
+                "Run antivirus scans",
+                "Update software and systems"
+            ]
+        },
+        {
+            "incident_type": "Data Breach",
+            "incident_description": "Unauthorized access to sensitive data",
+            "incident_response_steps": [
+                "Contain the breach",
+                "Notify stakeholders",
+                "Conduct a thorough investigation"
+            ]
+        }
+    ]
+}
