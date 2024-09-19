@@ -1,0 +1,83 @@
+{
+  "threat_feeds": [
+    {
+      "name": "Malware Traffic Analysis",
+      "description": "A feed of malware traffic analysis data",
+      "url": "https://example.com/malware-traffic-analysis",
+      "format": "JSON",
+      "fields": [
+        {
+          "name": "timestamp",
+          "type": "string",
+          "description": "The timestamp of the malware traffic analysis data"
+        },
+        {
+          "name": "source_ip",
+          "type": "string",
+          "description": "The source IP address of the malware traffic"
+        },
+        {
+          "name": "destination_ip",
+          "type": "string",
+          "description": "The destination IP address of the malware traffic"
+        },
+        {
+          "name": "protocol",
+          "type": "string",
+          "description": "The protocol used by the malware traffic"
+        },
+        {
+          "name": "malware_type",
+          "type": "string",
+          "description": "The type of malware detected"
+        }
+      ]
+    },
+    {
+      "name": "Phishing URLs",
+      "description": "A feed of phishing URLs",
+      "url": "https://example.com/phishing-urls",
+      "format": "CSV",
+      "fields": [
+        {
+          "name": "url",
+          "type": "string",
+          "description": "The phishing URL"
+        },
+        {
+          "name": "timestamp",
+          "type": "string",
+          "description": "The timestamp of the phishing URL"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "description": "The category of the phishing URL"
+        }
+      ]
+    },
+    {
+      "name": "Vulnerability Exploits",
+      "description": "A feed of vulnerability exploits",
+      "url": "https://example.com/vulnerability-exploits",
+      "format": "XML",
+      "fields": [
+        {
+          "name": "vulnerability_id",
+          "type": "string",
+          "description": "The ID of the vulnerability"
+        },
+        {
+          "name": "exploit_code",
+          "type": "string",
+          "description": "The exploit code for the vulnerability"
+        },
+        {
+          "name": "affected_software",
+          "type": "string",
+          "description": "The affected software for the vulnerability"
+        }
+      ]
+    }
+  ]
+}
