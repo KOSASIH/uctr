@@ -35,9 +35,9 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 Authors
 -------
 
-* [Your Name]
+* [KOSASIH](https://www.linkedin.com/in/kosasih-81b46b5a) 
 
 Acknowledgments
 ---------------
 
-* [List of contributors or acknowledgments]
+* All contributors
